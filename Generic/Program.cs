@@ -42,7 +42,7 @@ namespace Generic
         {
             get
             {
-                return Colect[index];
+                return Array.IndexOf(Colect,index);
             }
         }
 
